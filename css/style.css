@@ -1,0 +1,107 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: arial;
+}
+
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,0.898989898989899) 3%, rgba(58,0,74,1) 7%, rgba(80,28,71,1) 40%, rgba(55,16,22,0.952020202020202) 54%);
+}
+
+#titulo-form {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    text-align: center;
+
+}
+
+label, input {
+    display: block;
+    line-height: 30px;
+    height: 30px;
+    outline: none;
+    font-size: 13pt;
+    width: 100%;
+    color: white;
+    font-style: italic;
+}
+
+#form-cad {
+    width: 330px;
+    background-color: rgba(190, 186, 228, 0.753);
+    padding: 60px 70px;
+    margin: 70px auto;   
+    border-radius: 15px;
+    width: fit-content;
+}
+
+input[type="submit"] {
+    margin-top: 30px;
+    cursor: pointer;
+    border: none;
+    color: black;
+}
+
+input {
+    border: none;
+    border-radius: 5px;
+    height: 37px;
+    color: black;
+}
+
+#nome-lab {
+    margin-top: 10px;
+}
+
+#telefone-lab {
+    margin-top: 10px;
+}
+
+#email-lab {
+    margin-top: 10px;
+}
+
+#esquerda {
+    width: 35%;
+    height: 500px;
+    float: left;
+}
+
+#direita {
+    width: 65%;
+    height: 500px;
+    float: left;
+}
+
+table {
+    background-color: rgba(190, 186, 228, 0.753);
+    width: 90%;
+    margin: 70px auto;
+    text-align: center;
+}
+
+tr {
+    line-height: 30px;
+}
+
+tr#titulo {
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+td {
+    padding: 0px 15px;
+}
+
+a {
+    background-color: none;
+    color: black;
+    padding: 5px;
+    margin: 0px 5px;
+    text-decoration: none;
+    border: none;
+}
